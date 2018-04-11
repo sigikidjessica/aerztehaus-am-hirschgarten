@@ -1,5 +1,11 @@
+*~
+npm-debug.log
+.DS_Store
+Thumbs.db
 .idea
+node_modules
+bower_components
 *.zip
 *.rar
-Thumb.db
-*.
+*.gz
+*.tar
