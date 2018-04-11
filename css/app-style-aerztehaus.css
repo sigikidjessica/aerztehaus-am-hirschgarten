@@ -1,0 +1,199 @@
+body {
+    font-family: "Segoe UI";
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    font-size: 44px;
+    color: white;
+    font-family: "Segoe UI Semibold";
+}
+
+h2 {
+    font-size: 42px;
+    color: #7BCADB;
+    font-family: "Segoe UI Semibold";
+}
+
+h3 {
+    font-size: 34px;
+    color: #7BCADB;
+    font-family: "Segoe UI Semibold";
+    margin: 12px 0 0 0;
+}
+
+h4 {
+    font-size: 27px;
+    color: #828282;
+    font-family: "Segoe UI regular";
+    margin: 0;
+}
+
+h5 {
+    font-size: 24px;
+    color: #828282;
+    font-family: "Segoe UI Semibold";
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: white;
+}
+
+main {
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-logo {
+    text-align: center;
+}
+
+.nav-logo img {
+    max-width: 5%;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #DEDEDE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation a {
+    font-family: "Segoe UI Semibold";
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: #7bcadb;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+@media (min-width: 1200px) {
+    .Infobox-Aerztehaus {
+        position: fixed;
+        top: 215px;
+        left: 0;
+        background: #7c6e66;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+}
+
+.fachrichtungen-infotext {
+    font-size: 24px;
+    color: #828282;
+}
+
+.header-image-logo {
+    max-width: 25%;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.start {
+    background: #7BCADB;
+    color: white;
+    padding: 90px;
+    margin: 10px 0 0 0;
+}
+
+.start-infotext {
+    color: white;
+    font-family: "Segoe UI Semibold";
+}
+
+.fachrichtung {
+    padding: 90px;
+    background: #F1F1F1;
+}
+
+.fachrichtungen-links-img {
+    background: #F1F1F1;
+}
+
+.fachrichtung-img{
+    width: auto;
+    height: auto;
+    box-shadow: 8px 8px 18px #88888826;
+}
+
+.button {
+    margin-bottom: 50px;
+}
+
+.button-fachrichtung-info {
+    background: #7bcadb;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.button-fachrichtung-info:hover {
+    border: 5px white;
+    background: #70b4c2;
+    color: white;
+}
+
+.kontakt {
+    background: #7bcadb;
+    padding: 90px;
+    margin: 0 0 10px 0;
+}
+
+.h3-kontakt {
+    color: white;
+}
+
+.h2-kontakt {
+    color: white;
+}
+
+.kontakt p {
+    color: white;
+}
+
+.etagenplan {
+    padding: 90px;
+    margin: 0 0 10px 0;
+}
+
+.h2-etagenplan {
+    color: #7bcadb;
+}
+
+.impressum {
+    background: #dedede;
+    padding: 90px;
+    margin: 0 0 10px 0;
+}
+
+.impressum p {
+    color: white;
+}
+
+
+.h2-impressum {
+    color: white;
+}
